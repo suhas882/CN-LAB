@@ -1,0 +1,58 @@
+#EXPERIMENT 1B#
+Experiment 1: Basic Peer-to-Peer Networking with Cisco Packet Tracer
+This experiment demonstrates the setup of a simple peer-to-peer (P2P) network using Cisco Packet Tracer, where two PCs are directly connected to test basic IP connectivity.
+
+Objective
+To establish and verify basic peer-to-peer communication by:
+
+Connecting two PCs using a copper straight-through cable
+
+Assigning IP addresses manually
+
+Testing connectivity using the ping command
+
+Requirements
+Cisco Packet Tracer
+
+2 PCs (PC0 and PC1)
+
+1 Copper Straight-Through Cable
+
+🔧 Experiment Steps
+1. Create a New Network
+Launch Cisco Packet Tracer
+
+Open a new workspace/project
+
+2. Add Devices
+Drag and drop PC0 and PC1 into the workspace
+
+3. Connect the PCs
+Use a Copper Straight-Through Cable
+
+Connect PC0 → FastEthernet0
+
+Connect PC1 → FastEthernet0
+
+4. Configure IP Addresses
+On each PC, go to:
+
+Desktop → IP Configuration
+
+PC0
+IP Address: 192.168.1.1
+
+Subnet Mask: 255.255.255.0
+
+PC1
+IP Address: 192.168.1.2
+
+Subnet Mask: 255.255.255.0
+
+5. Test the Connection
+Open Command Prompt on PC0
+
+Type: ping 192.168.1.2
+
+A successful reply confirms connectivity
+
