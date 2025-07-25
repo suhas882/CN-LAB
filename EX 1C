@@ -1,0 +1,66 @@
+Part 3: Study of Network Cables and Color Codes
+ Overview
+This section explores the different types of network cables used in computer networking, focusing on both copper and fiber optic cables. It also details the standard color codes for copper straight-through and crossover cables, along with their typical purposes and use cases in network setups.
+
+1. Types of Network Cables
+ Copper Cables
+🔹 Straight-Through Cable
+Purpose: Connects different types of devices
+
+Examples: PC to Switch, Switch to Router
+
+Wiring: Identical on both ends (Pin 1 to Pin 1, Pin 2 to Pin 2, etc.)
+
+🔹 Crossover Cable
+Purpose: Connects similar types of devices directly
+
+Examples: PC to PC, Switch to Switch
+
+Wiring: Transmit and receive pairs are crossed (TX ↔ RX)
+
+ Fiber Optic Cables
+🔹 Single-Mode Fiber (SMF)
+Light Source: Infrared laser (1310 or 1550 nm)
+
+Distance: Long-distance (up to kilometers)
+
+Use Case: WAN links, long-haul telecom
+
+🔹 Multi-Mode Fiber (MMF)
+Light Source: Infrared LED (850 nm)
+
+Distance: Short to medium distances
+
+Use Case: LANs, data centers, building backbones
+
+2.  Standard Color Codes for Copper Cables
+Straight-Through Cable (TIA/EIA 568B Standard)
+Pin	Wire Color
+1	White/Orange
+2	Orange
+3	White/Green
+4	Blue
+5	White/Blue
+6	Green
+7	White/Brown
+8	Brown
+
+Note: Both ends use the same wiring pattern.
+
+ Crossover Cable Pinout
+Pin	End 1 (Color)	End 2 (Color)
+1	White/Orange	White/Green
+2	Orange	Green
+3	White/Green	White/Orange
+4	Blue	Blue
+5	White/Blue	White/Blue
+6	Green	Orange
+7	White/Brown	White/Brown
+8	Brown	Brown
+
+3.  Purpose and Usage of Each Cable Type
+Cable Type	Purpose	Usage Example
+Copper Straight-Through	Connects different device types	PC to Switch, Switch to Router
+Copper Crossover	Connects similar device types directly	PC to PC, Switch to Switch
+Single-Mode Fiber	Long-distance, high-speed transmission	WAN links, backbone connections
+Multi-Mode Fiber	Medium-distance high-speed connections	LANs, data centers, buildings
